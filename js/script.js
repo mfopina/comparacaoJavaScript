@@ -7,6 +7,9 @@ function compararValores() {
         location = 'js/ganhou.html'
 
     } else {
-        location = 'js/perdeu.html'
+            let i;
+            i++;
+			document.getElementById("botao").innerHTML = i;
+            location = 'index.html'
     }
 }

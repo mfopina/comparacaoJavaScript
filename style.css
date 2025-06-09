@@ -62,3 +62,25 @@
                             height: 3rem;
                             margin-top: 2rem;
                             }
+
+                            input{
+                                font-size: 80px;
+                                width: 380px;
+                                margin-left: 600px;
+                                margin-right: 600px;
+                                margin-top: 50px;
+                            }
+                             button{
+                                font-size: 80px;
+                                width: 380px;
+                                margin-left: 600px;
+                                margin-right: 600px;
+                                margin-top: 10px;
+                            }
+                            p{
+                                font-size: 80px;
+                                width: 380px;
+                                margin-left: 600px;
+                                margin-right: 600px;
+                                margin-top: 50px;
+                            }
