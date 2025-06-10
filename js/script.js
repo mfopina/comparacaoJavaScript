@@ -1,15 +1,27 @@
-function compararValores() {
-    var valorDigitado = document.getElementById("valorDigitado").value;
-    var valorDeComparacao = "50";  // Substitua por seu valor
+document.addEventListener("DOMContentLoaded", () => {
+
+    const contadorElemento = document.getElementById("contador");
+    const botaoTeste = document.getElementById("botaoTeste");
+
+let contadorErros = 0;
+
+function compararValores(valorDigitado) {
+        var valorDeComparacao = "50";  // Substitua por seu valor
 
     if (valorDigitado == valorDeComparacao) {
         
         location = 'js/ganhou.html'
 
     } else {
-            let i;
-            i++;
-			document.getElementById("botao").innerHTML = i;
-            location = 'index.html'
+            contadorErros++;
+            contadorElemento.textContent = `Contagem de erros: ${contadorErros}`;
+            alert("Resposta errada. Contagem atualizada.");
     }
 }
+
+
+botaoTeste.addEventListener("click", () => {
+        var valorDigitado = document.getElementById("valorDigitado").value;
+        compararValores(valorDigitado);
+    });
+});
