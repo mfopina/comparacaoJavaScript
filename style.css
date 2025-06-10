@@ -84,3 +84,46 @@
                                 margin-right: 600px;
                                 margin-top: 50px;
                             }
+
+
+.my-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 15px; /*Espaçamento interno*/
+  text-decoration: none; /*Remover sublinhado*/
+  display: inline-block; /*Permite espaçamento*/
+  border-radius: 5px; /*Arredondar as bordas*/
+  cursor: pointer; /*Mostrar cursor de ponteiro*/
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /*Adicionar sombra*/
+  transition: all 0.3s ease; /*Transição suave*/
+}
+
+.my-button:hover {
+  background-color: #3e8e41;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /*Sombra mais intensa*/
+  transform: scale(1.05); /*Aumentar o tamanho*/
+}
+
+.grande-centralizado-perdeu {
+  text-align: center;
+  font-size: 200px; /* Ajuste este valor para o tamanho desejado */
+  color: #ff3300; /* Exemplo de cor azul */
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 200px; /* Exemplo de espaço em cima */
+  margin-left: 400px;
+  margin-right: 600px;
+                                
+}
+
+.grande-centralizado-ganhou {
+  text-align: center;
+  font-size: 200px; /* Ajuste este valor para o tamanho desejado */
+  color: #0800ff; /* Exemplo de cor azul */
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 200px; /* Exemplo de espaço em cima */
+  margin-left: 400px;
+  margin-right: 600px;
+                                
+}

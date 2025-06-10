@@ -12,14 +12,16 @@ function compararValores(valorDigitado) {
         
         location = 'js/ganhou.html'
 
-    } if (contadorErros >= 5) {
+    } else{if (contadorErros >= 5) {
         
         location = 'js/perdeu.html'
 
-    }else {
+    }else{
             contadorErros++;
             contadorElemento.textContent = `Contagem de erros: ${contadorErros}`;
             alert("Resposta errada. Contagem atualizada.");
+    }
+    
     }
 }
 
